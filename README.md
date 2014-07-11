@@ -32,7 +32,7 @@ or download the css on github and include in your project.
 .ofy-scr { overflow-y: scroll; }
 .ofy-aut { overflow-y: auto; }
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .of-vis-ns { overflow: visible; }
   .of-hid-ns { overflow: hidden; }
   .of-scr-ns { overflow: scroll; }
@@ -47,7 +47,7 @@ or download the css on github and include in your project.
   .ofy-aut-ns { overflow-y: auto; }
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .of-vis-m { overflow: visible; }
   .of-hid-m { overflow: hidden; }
   .of-scr-m { overflow: scroll; }
@@ -62,7 +62,7 @@ or download the css on github and include in your project.
   .ofy-aut-m { overflow-y: auto; }
 }
 
-@include break(large) {
+@media screen and (min-width: 64em)  {
   .of-vis-l { overflow: visible; }
   .of-hid-l { overflow: hidden; }
   .of-scr-l { overflow: scroll; }
