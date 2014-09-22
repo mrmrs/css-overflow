@@ -20,7 +20,8 @@ View on [npm](https://www.npmjs.org/package/css-overflow)
 ## File Size
 
 1.8K overflow.css
-1.4K overflow.min.css
+1.4K overflow.min.css 
+294B minified and gzipped
 
 ## The Code
 ```
