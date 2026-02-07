@@ -16,18 +16,18 @@
 .ofy-aut { overflow-y: auto; }
 
 @media screen and (min-width: 48em) {
-  .of-vis-ns { overflow: visible; }
-  .of-hid-ns { overflow: hidden; }
-  .of-scr-ns { overflow: scroll; }
-  .of-aut-ns { overflow: auto; }
-  .ofx-vis-ns { overflow-x: visible; }
-  .ofx-hid-ns { overflow-x: hidden; }
-  .ofx-scr-ns { overflow-x: scroll; }
-  .ofx-aut-ns { overflow-x: auto; }
-  .ofy-vis-ns { overflow-y: visible; }
-  .ofy-hid-ns { overflow-y: hidden; }
-  .ofy-scr-ns { overflow-y: scroll; }
-  .ofy-aut-ns { overflow-y: auto; }
+  .of-vis-s { overflow: visible; }
+  .of-hid-s { overflow: hidden; }
+  .of-scr-s { overflow: scroll; }
+  .of-aut-s { overflow: auto; }
+  .ofx-vis-s { overflow-x: visible; }
+  .ofx-hid-s { overflow-x: hidden; }
+  .ofx-scr-s { overflow-x: scroll; }
+  .ofx-aut-s { overflow-x: auto; }
+  .ofy-vis-s { overflow-y: visible; }
+  .ofy-hid-s { overflow-y: hidden; }
+  .ofy-scr-s { overflow-y: scroll; }
+  .ofy-aut-s { overflow-y: auto; }
 }
 
 @media screen and (min-width:48em) and (max-width: 64em) {
