@@ -1,38 +1,44 @@
 {
   "name": "css-overflow",
-  "style": "overflow.css",
-  "version": "1.0.7",
-  "homepage": "http://github.com/mrmrs/css-overflow",
-  "description": "Css module of single purpose classes for overflow",
+  "version": "2.0.0",
+  "description": "Functional CSS for overflow",
+  "style": "dist/overflow.css",
+  "main": "dist/overflow.css",
+  "exports": {
+    ".": "./dist/overflow.css",
+    "./dist/*": "./dist/*",
+    "./src/*": "./src/*"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "prepublishOnly": "npm run build"
+  },
   "keywords": [
     "css",
-    "oocss",
-    "overflow"
+    "overflow",
+    "utility",
+    "single-purpose",
+    "functional-css"
   ],
-  "css-overflow": {
+  "homepage": "https://github.com/mrmrs/css-overflow",
+  "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/css-overflow.git"
+    "url": "https://github.com/mrmrs/css-overflow.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/css-overflow/issues",
-    "email": "hi@mrmrs.cc"
+    "url": "https://github.com/mrmrs/css-overflow/issues"
   },
   "author": {
     "name": "Adam Morse",
     "email": "hi@mrmrs.cc",
     "url": "http://mrmrs.cc"
   },
-  "contributors": [
-    {
-      "name": "Adam Morse",
-      "email": "hi@mrmrs.cc"
-    }
-  ],
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "lightningcss": "^1"
-  },
-  "scripts": {
-    "build": "node build.js"
   }
 }
