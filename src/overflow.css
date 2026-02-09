@@ -15,7 +15,7 @@
 .ofy-scr { overflow-y: scroll; }
 .ofy-aut { overflow-y: auto; }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 32em) {
   .of-vis-s { overflow: visible; }
   .of-hid-s { overflow: hidden; }
   .of-scr-s { overflow: scroll; }
@@ -30,7 +30,7 @@
   .ofy-aut-s { overflow-y: auto; }
 }
 
-@media screen and (min-width:48em) and (max-width: 64em) {
+@media screen and (min-width:48em) {
   .of-vis-m { overflow: visible; }
   .of-hid-m { overflow: hidden; }
   .of-scr-m { overflow: scroll; }
@@ -45,7 +45,7 @@
   .ofy-aut-m { overflow-y: auto; }
 }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 96em) {
   .of-vis-l { overflow: visible; }
   .of-hid-l { overflow: hidden; }
   .of-scr-l { overflow: scroll; }
